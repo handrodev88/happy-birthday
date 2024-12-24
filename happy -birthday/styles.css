@@ -1,0 +1,83 @@
+body {
+    font-family: 'Happy Monkey', serif;
+    text-align: center;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: white;
+}
+
+h1, h2, h4, p {
+    text-shadow: 0px 0px 1px black;
+}
+
+#bday-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-img {
+ margin: 20px auto;
+ width: 400px;
+ height: 400px;
+ border: 5px solid white;
+ border-radius: 10px;
+ background-image: url("Images/gift-cover.jpg");
+ background-size: cover;
+}
+
+#gift-img-blessed:hover {
+    background-image: url(Images/giphy.gif);
+    background-size: 100% 100%;
+    transition: background-image 0.3s ease-in-out
+    /* background-size: cover; */
+    /* background-repeat: no-repeat;
+    background-position: center;  */
+    }
+
+#gift-img-looks:hover {
+    background-image: url(Images/patrick-starfish-spongebob.gif);
+    background-size: 100% 100%;
+    transition: back-ground-image 0.3s ease-in-out;
+}
+
+#gift-img-shutup-bich:hover {
+    background-image: url(Images/the-rock.gif);
+    background-size: 100% 100%;
+    transition: back-ground-image 0.3s ease-in-out;
+}
+
+#gift-img-empty:hover {
+    background-image: url(Images/monsters-inc-sully.gif);
+    background-size: 100% 100%;
+    transition: background-image 0.3s ease-in-out;
+}
+
+
+#gift-the-poem:hover {
+    background-image: url(Images/Your\ paragraph\ text.jpg);
+}
+
+
+.courage {
+    border:5px solid white;
+}
